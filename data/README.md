@@ -31,7 +31,7 @@ The second version consists of up to 12,055 postive samples for 908 unique incid
 More details can be looked up by finding the relevant two images in SSS_02_raw. The files were located using the included "sample_pairs.csv" file. 
 
 
-### 2. Description of SSS_02_raw.zip:
+### 2. SSS_02_raw.zip:
 
 ```
 {label}_{incident}_{order}_POL{polarization}_LON{longitude}_LAT{latitude}_IMD{image_datetime}_IND{incident_date}.jpg
