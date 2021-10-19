@@ -32,7 +32,11 @@ The second version consists of up to 12,055 postive samples for 908 unique incid
 6. image_datetime: the date (year-month-day) and the time (hour-minutes) of the date of the image.
 7. incident_date: the date of interest associated with the image.
 - The Distribution of the Pixels' Intensities:
-<img src="SSS_02_raw Histogram.png" width="50%"/>
+
+| Distribution | Statistics | Description |
+| ------------- | ------------- | ------------- |
+| Labels | <img src="SSS_02_delta Count by Label.png" width="100%"/> | Boxplot of the data points by type |
+| Features | <img src="SSS_02_raw Histogram.png" width="100%"/> | Histogram of the training pixels' intensities | 
 
 
 ### 2. SSS_02_delta.zip
@@ -45,8 +49,11 @@ The second version consists of up to 12,055 postive samples for 908 unique incid
 2. incident: unique for each location.
 3. order: temporal order of images. Negative is for images that were taken after the date of interest.
 More details can be looked up by finding the relevant two images in SSS_02_raw. The files were located using the included "sample_pairs.csv" file. 
-- The Distribution of the Training Pixels' Intensities:
-<img src="SSS_02 Train Histogram.png" width="50%"/>
+
+|  | Statistics | Description |
+| ------------- | ------------- | ------------- |
+| Labels | <img src="SSS_02_raw Count by Label.png" width="100%"/> | Boxplot of data points by type |
+| Features | <img src="SSS_02 Train Histogram.png" width="100%"/> | Distribution of the training pixels' intensities | 
 
 
 # Previous Versions
