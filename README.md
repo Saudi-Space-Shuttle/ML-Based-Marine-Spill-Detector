@@ -1,7 +1,7 @@
 # ML-Based Marine Spill Detector
 
 
-The proposal of the project is published in the NASA Space Apps challenge website. We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. [continue reading](Proposal.md)
+We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. The proposal of the project is published in the NASA Space Apps challenge website. [Continue Reading](Proposal.md)
 
 <br />
 <br />
@@ -102,7 +102,7 @@ from tensorflow.keras import metrics
 from tensorflow.keras.losses import BinaryCrossentropy
 from tensorflow.keras.optimizers import Adam
 
-model = Sequential()
+model = Sequential(name="MarineSpillDetector001")
 model.add(layers.InputLayer( input_shape=( *image_size , 1 )))
 
 model.add(layers.BatchNormalization())
@@ -141,7 +141,7 @@ model.summary()
 
 [output]
 ```
-Model: "sequential_1"
+Model: "MarineSpillDetector001"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -231,7 +231,7 @@ Epoch 2/2
 
 <img src="results/baseline_results_90RecaPrec.png" width="50%"/>
 
-### 4. Training Metrics
+### 4. Training Progress
 
 #### Recall
 <img src="results/baseline_results_Reca.png" width="50%"/>
