@@ -3,6 +3,10 @@
 
 The proposal of the project is published in the NASA Space Apps challenge website. We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. [continue reading](Proposal.md)
 
+<br />
+<br />
+<br />
+
 
 ## Pre-Processed Data
 
@@ -14,11 +18,16 @@ The proposal of the project is published in the NASA Space Apps challenge websit
 | SSS_02_delta.zip/sample_pairs.csv  | Extracted Data Listing | 8.06 MB | [Direct Download](https://www.dropbox.com/s/24rghn8jl352cer/SSS_02_delta_sample_pairs.csv?dl=1) |
 | SSS_02_raw.zip  | Cleaned Dataset  | 518.02 MB | [Direct Download](https://www.dropbox.com/s/jhz8uytpkty38n7/SSS_02_raw.zip?dl=1) |
 | SSS_02_delta.zip  | Extracted Dataset  | 365.98 MB | [Direct Download](https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1) |
-[view all versions](/data)
 
-The subsets in the SSS_02_delta.zip directory by types:
+| Browse Spatial Distributions by Label | SSS_02_delta.zip Subsets by Type  |
+| ------------- | ---------- |
+| <a href="https://www.saudispaceshuttle.com/SSS_02"><img src="data/SSS_02_raw_map.png" width="100%"/></a> | <img src="data/SSS_02_delta Data Subsets.png" width="100%"/>  | 
+ [Explore more data details](/data)
 
-<img src="data/SSS_02_delta Data Subsets.png" width="50%" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/> 
+
+<br />
+<br />
+<br />
 
 
 ## Training a Baseline Deep Learning Model
