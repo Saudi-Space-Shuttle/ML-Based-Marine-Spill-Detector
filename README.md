@@ -47,6 +47,7 @@ image_size = (100, 100)
 batch_size = 50
 
 gen = ImageDataGenerator(
+    rescale=1./255.,
     horizontal_flip = True,
     vertical_flip = True,
     rotation_range = 5,
