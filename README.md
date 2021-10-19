@@ -6,34 +6,39 @@ The proposal of the project is published in the NASA Space Apps challenge websit
 
 ## Pre-Processed Data
 
+
 | File  | Desc | Size | URL |
 | ------------- | ------------- |------------- |------------- |
 | SSS_02_metadata.csv  | Selected Data Listing | 8.64 MB | [Direct Download](https://www.dropbox.com/s/zoef50qn5rcnsdf/SSS_02_metadata.csv?dl=1) |
 | SSS_02_raw.zip/time_samples.csv  | Cleaned Data Listing | 4.84 MB | [Direct Download](https://www.dropbox.com/s/oo52lhxypfvdmdb/SSS_02_raw_time_samples.csv?dl=1) |
 | SSS_02_delta.zip/sample_pairs.csv  | Extracted Data Listing | 8.06 MB | [Direct Download](https://www.dropbox.com/s/24rghn8jl352cer/SSS_02_delta_sample_pairs.csv?dl=1) |
 | SSS_02_raw.zip  | Cleaned Dataset  | 518.02 MB | [Direct Download](https://www.dropbox.com/s/jhz8uytpkty38n7/SSS_02_raw.zip?dl=1) |
-| SSS_02_delta.zip  | Extracted Dataset  | 605.21 MB | [Direct Download](https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1) |
+| SSS_02_delta.zip  | Extracted Dataset  | 365.98 MB | [Direct Download](https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1) |
 [view all versions](/data)
 
+The subsets in the SSS_02_delta.zip directory by types:
 
-## Fitting a Baseline Model
+<img src="data/SSS_02_delta Data Subsets.png" width="50%" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"/> 
+
+
+## Training a Baseline Deep Learning Model
 
 ### 1. Prerequisites
-I. [Python/Conda Distribution](https://docs.conda.io/en/latest/miniconda.html)
+I. [Conda Distribution of Python](https://docs.conda.io/en/latest/miniconda.html)
     
-II. [Tensorflow](https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/)
+II. [GPU Version of TensorFlow](https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/)
 ```
 conda install -c anaconda tensorflow-gpu
 ```
 
-III. [SSS_02 Extracted Samples (SSS_02_delta.zip)](/data)
+III. [Extracted Samples of SSS_02](/data)
 
 If you're using Linux, open the Terminal and enter:
  ```terminal
  wget "https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1"
  ```
 
-### 2. Prepare Data Generator using Tensorflow
+### 2. Preparing Data Generators by TensorFlow
 
 Data augmentation is a standard practice in imagery and big data and is available in the [ImageDataGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator) class.
 
@@ -57,17 +62,17 @@ gen = ImageDataGenerator(
 
 train_generator = gen.flow_from_directory(
     dataset_directory+'/train',
-    target_size=image_size,
-    batch_size=batch_size,
-    class_mode='binary',
+    target_size = image_size,
+    batch_size = batch_size,
+    class_mode = 'binary',
     color_mode = 'grayscale',
 )
 
 valid_generator = ImageDataGenerator(rescale=1./255.).flow_from_directory(
     dataset_directory+'/valid',
-    target_size=image_size,
-    batch_size=batch_size,
-    class_mode='binary',
+    target_size = image_size,
+    batch_size = batch_size,
+    class_mode = 'binary',
     color_mode = 'grayscale',
 )
 ```
