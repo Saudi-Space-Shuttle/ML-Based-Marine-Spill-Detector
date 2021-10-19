@@ -35,9 +35,11 @@ The second version consists of up to 12,055 postive samples for 908 unique incid
 
 | Distribution | Statistics | Description |
 | ------------- | ------------- | ------------- |
-| Labels | <img src="SSS_02_delta Count by Label.png" width="100%"/> | Boxplot of the data points by type |
+| Sampling | <img src="SSS_02_delta Count by Label.png" width="100%"/> | Boxplot of the time samples per incident by label |
 | Features | <img src="SSS_02_raw Histogram.png" width="100%"/> | Histogram of the training pixels' intensities | 
-<!-- | Labels | <img src="SSS_02 Train Histogram.png" width="100%"/> | Pie chart of data by type |  -->
+| Space | <a href="https://www.saudispaceshuttle.com/SSS_02"><img src="SSS_02_raw_map.png" width="100%"/></a> | Heatmap of the data points geographic locations. <br /> [Filter By Label](https://www.saudispaceshuttle.com/SSS_02) | 
+| Time | <img src="SSS_02 Annual Trend.png" width="100%"/> | Annual average of number of reported incidents and typical trend expected by year and month | 
+
 
 
 ### 2. SSS_02_delta.zip
@@ -53,9 +55,9 @@ More details can be looked up by finding the relevant two images in SSS_02_raw. 
 
 | Distribution | Statistics | Description |
 | ------------- | ------------- | ------------- |
-| Timeframes | <img src="SSS_02_raw Count by Label.png" width="100%"/> | Boxplot of the samples' lengths by label |
+| Combinations | <img src="SSS_02_raw Count by Label.png" width="100%"/> | Boxplot of the paired samples per incident by label |
 | Features | <img src="SSS_02 Train Histogram.png" width="100%"/> | Histogram of the training pixels' intensities | 
-| Location | <a href="https://www.saudispaceshuttle.com/SSS_02"><img src="SSS_02_raw_map.png" width="100%"/></a> | Heatmap of the data points geographic locations. <br /> [Filter By Label](https://www.saudispaceshuttle.com/SSS_02) | 
+| Labels | <img src="SSS_02_delta Data Subsets.png" width="100%"/> | Pie chart of data subsets sizes by types | 
 
 
 
