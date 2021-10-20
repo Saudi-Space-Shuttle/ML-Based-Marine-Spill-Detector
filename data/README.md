@@ -10,8 +10,8 @@
 | SSS_02_metadata.csv  | Selected Data Listing | 8.64 MB | [Direct Download](https://www.dropbox.com/s/zoef50qn5rcnsdf/SSS_02_metadata.csv?dl=1) |
 | SSS_02_raw.zip/time_samples.csv  | Cleaned Data Listing | 4.84 MB | [Direct Download](https://www.dropbox.com/s/oo52lhxypfvdmdb/SSS_02_raw_time_samples.csv?dl=1) |
 | SSS_02_delta.zip/sample_pairs.csv  | Extracted Data Listing | 8.06 MB | [Direct Download](https://www.dropbox.com/s/24rghn8jl352cer/SSS_02_delta_sample_pairs.csv?dl=1) |
-| SSS_02_raw.zip  | Cleaned Dataset  | 518.03 MB | [Direct Download](https://www.dropbox.com/s/jhz8uytpkty38n7/SSS_02_raw.zip?dl=1) |
-| SSS_02_delta.zip  | Extracted Dataset  | 365.98 MB | [Direct Download](https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1) |
+| SSS_02_raw.zip  | Cleaned Dataset  | 512.6 MB | [Direct Download](https://www.dropbox.com/s/jhz8uytpkty38n7/SSS_02_raw.zip?dl=1) |
+| SSS_02_delta.zip  | Extracted Dataset  | 362.49 MB | [Direct Download](https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1) |
 
 
 The second version consists of up to 12,055 postive samples for 908 unique incidents and up to 34,482 negative samples for 2,610 unique locations, between 2014 and 2021. Each sample is saved in the grayscale JPEG format, sized 256px × 256px, capturing a 50km × 50km area of interest, from the available SAR-Sentinel-1 tiles, within a two-month span of each date of interest. The mode and the band of most of the readings are Interferometric Wide Swath (IW) and Single co-polarization, vertical transmit/vertical receive (VV) and horizontal-horizontal (HH), respectively. The SSS_02_metadata.csv file specifies the elementwise details of the joint dataset. Similarly, the other CVS files list the images in each dataset. Additionally, the filename scheme contains variables, which are inbetween curly brackets and described below:
