@@ -252,9 +252,20 @@ Epoch 2/2
 <br />
 <br />
 
-# Approach
+# Algorithms
 
-## Data Engineering Algorithm
+## 1. Data Engineering 
+1. Obtaining the incident locations.
+2. Searching the SAR-1 database.
+3. Locating images at a one month span at the dates of interests. 
+4. Extracting tiles of the areas of interests.
+4. Mosaic tiles within a one hour approximity.
+5. Save, zip, and upload to dropbox.
+6. Generate pair combinations.
+7. Subtract pairs and apply gamma transfer. 
+8. Save, zip, and upload to dropbox.
+
+## 2. Data Engineering 
 1. Obtaining the incident locations.
 2. Searching the image database. 
 3. Extracting images.
