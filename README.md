@@ -45,6 +45,7 @@ III. [Extracted Samples of SSS_02](/data)
 If you're using Linux, open the Terminal and enter:
  ```terminal
  wget "https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1"
+ unzip SSS_02_delta.zip
  ```
 
 ### 2. Preparing Keras Data Generators
@@ -243,11 +244,26 @@ Epoch 2/2
 <img src="results/baseline_results_loss.png" width="50%"/>
 
 
+<br />
+<br />
+<br />
 
+
+# Tools
+
+* Acquisition: Google Earth Engine Python API
+* Feature Engineering: Pandas, Numpy, Itertools
+* File Management: Glob, Imageio, Tqdm, Zipfile, Dropbox 
+* Modeling: Scikit-learn, Keras, Tensorflow
+* Visualization: Matplotlib, Seaborn, Folium, JavaScript
+* Deployment: Flask
 
 <br />
 <br />
 <br />
 
+# Communication
+
+After the optumization of the deep learning phase, the MarineSpillDetector model deployment may be deployed to: https://msd.SaudiSpaceShuttle.com
 
 
