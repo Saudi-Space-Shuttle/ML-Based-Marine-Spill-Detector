@@ -37,7 +37,7 @@ The second version consists of up to 12,055 postive samples for 908 unique incid
 | ------------- | ------------- | ------------- |
 | Sampling | <img src="SSS_02_delta Count by Label.png" width="100%"/> | Boxplot of the time samples per incident by label |
 | Features | <img src="SSS_02_raw Histogram.png" width="100%"/> | Histogram of the training pixels' intensities | 
-| Space | <a href="https://www.saudispaceshuttle.com/SSS_02"><img src="SSS_02_raw_map.png" width="100%"/></a> | Heatmap of the data points geographic locations. <br /> [Filter By Label](https://www.saudispaceshuttle.com/SSS_02) | 
+| Space | <a href="https://www.saudispaceshuttle.com/SSS_02"><img src="SSS_02_raw_map.png" width="100%"/></a> <br /> [(Filter by Label)](https://www.saudispaceshuttle.com/SSS_02) | Heatmap of the data points geographic locations.  | 
 | Time | <img src="SSS_02 Annual Trend.png" width="100%"/> | Annual average of number of reported incidents and typical trend expected by year and month | 
 
 
