@@ -265,11 +265,18 @@ Epoch 2/2
 7. Subtract pairs and apply gamma transfer. 
 8. Save, zip, and upload to dropbox.
 
-## 2. Data Engineering 
-1. Obtaining the incident locations.
-2. Searching the image database. 
-3. Extracting images.
-4. Pair combination. 
+## 2. EDA
+
+## 3. Deep Learning
+1. Normalize intensities and augment data. 
+2. Obtain test retuls.
+3. Optomize model. 
+
+## 4. Deployment
+1. Obtain random images around the globe.
+2. Feed the model. 
+3. Generate Heatmap every 24 hours using JavaScript. 
+4. Serve dynamic html pages. 
 
 
 # Tools
