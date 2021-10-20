@@ -3,9 +3,13 @@
 
 We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. The proposal of the project is published in the NASA Space Apps challenge website. [(Continue Reading)](Proposal.md)
 
+
 <br />
 <br />
 <br />
+
+
+
 
 
 ## Pre-Processed Data
@@ -248,6 +252,14 @@ Epoch 2/2
 <br />
 <br />
 
+# Approach
+
+## Data Engineering Algorithm
+1. Obtaining the incident locations.
+2. Searching the image database. 
+3. Extracting images.
+4. Pair combination. 
+
 
 # Tools
 
@@ -264,6 +276,9 @@ Epoch 2/2
 
 # Communication
 
-After the optumization of the deep learning phase, the MarineSpillDetector model deployment may be deployed to: https://msd.SaudiSpaceShuttle.com
+The Graphical User Interface (GUI) for the MarineSpillDetector model is being built at https://msd.SaudiSpaceShuttle.com
 
+
+
+<a href="https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-plastic-marine-debris/teams/saudi-space-shuttle/project"><img src="Among_365_Global_Nominees.png" width="200px"/></a>
 
