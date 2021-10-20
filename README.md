@@ -47,9 +47,9 @@ If you're using Linux, open the Terminal and enter:
  wget "https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1"
  ```
 
-### 2. Preparing Data Generators by TensorFlow
+### 2. Preparing Keras Data Generators
 
-Data augmentation is a standard practice in imagery and big data and is available in the [ImageDataGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator) class.
+Data augmentation is a standard practice in imagery data and is available in the [ImageDataGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator) class.
 
 
 ```Python
@@ -88,7 +88,7 @@ valid_generator = ImageDataGenerator(rescale=1./255.).flow_from_directory(
 )
 ```
 
-### 3. Define and compile a Keras model
+### 3. Define and compile a Tensorflow model
 
 
 ```Python
@@ -182,7 +182,7 @@ _________________________________________________________________
 ```
 
 
-### 4. Train a Deep Learning Model using Tensorflow
+### 4. Train a Deep Learning Model
 
 Define and compile a Keras model, then use the following code for the training. 
 
