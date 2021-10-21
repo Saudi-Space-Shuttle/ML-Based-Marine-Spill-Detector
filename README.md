@@ -9,7 +9,7 @@ The proposal of the project is published on the NASA Space Apps challenge websit
 
 <br />
 
-<a href="https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-plastic-marine-debris/teams/saudi-space-shuttle/project"><img src="Among_365_Global_Nominees.png" alt="SpaceAppsChallenge" width="200px"/></a>
+<a href="https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-plastic-marine-debris/teams/saudi-space-shuttle/project"><img src="Among_365_Global_Nominees.png" alt="SpaceAppsChallenge" width="19em" style="width: 19em;" /></a>
 
 
 <br />
@@ -202,28 +202,28 @@ Epoch 2/2
 
 ## Preliminary Results
 
-### 1. Area Under the Curve (AUC)
+### 1. Area Under the Curve 
 
-<img src="results/baseline_results_AUC.png" width="50%"/>
+<img src="results/baseline_results_AUC.png" width="34em" style="width: 34em;" />
 
 ### 2. Precision At 99% Recall
 
-<img src="results/baseline_results_99RecaPrec.png" width="50%"/>
+<img src="results/baseline_results_99RecaPrec.png" width="34em" style="width: 34em;" />
 
 ### 3. Precision At 90% Recall
 
-<img src="results/baseline_results_90RecaPrec.png" width="50%"/>
+<img src="results/baseline_results_90RecaPrec.png" width="34em" style="width: 34em;" />
 
 ### 4. Training Progress
 
 #### Recall
-<img src="results/baseline_results_Reca.png" width="50%"/>
+<img src="results/baseline_results_Reca.png" width="34em" style="width: 34em;" />
 
 #### Precision
-<img src="results/baseline_results_Prec.png" width="50%"/>
+<img src="results/baseline_results_Prec.png" width="34em" style="width: 34em;" />
 
 #### Binary Cross-Entropy Loss
-<img src="results/baseline_results_loss.png" width="50%"/>
+<img src="results/baseline_results_loss.png" width="34em" style="width: 34em;" />
 
 
 <br />
@@ -241,7 +241,7 @@ Epoch 2/2
 | SSS_02_delta.zip  | Extracted Dataset  | 362.49 MB | [Direct Download](https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1) |
 
 - SSS_02_delta.zip Subsets by Type:
-<img src="data/SSS_02_delta Data Subsets.png" width="90%"/>
+<img src="data/SSS_02_delta Data Subsets.png" width="44em" style="width: 44em;" />
 
 [(Explore More Data Details)](/data)
 
