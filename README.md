@@ -1,40 +1,22 @@
 # ML-Based Marine Spill Detector
 
 
-We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. The proposal of the project is published in the NASA Space Apps challenge website. [(Continue Reading)](Proposal.md)
+The proposal of the project is published on the NASA Space Apps challenge website and is among the selected 365 Global Nominees. We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. Our method mainly consists of combining open source datasets for the NASA Space Apps to help natural disasters decision makers plan and allocate resources efficiently. Our vision is to have the contamination accumulation in the food chain de-accelerated, and the mission of the public user interface (SaudiSpaceShuttle.com) is to provide the first responders community with an additional deep model as well as to increase the public awareness about water pollution. [(Continue Reading)](Proposal.md)
+
+## Design
+
+<a href="https://docs.google.com/presentation/d/1VxZ-vaUGmrOlumdKwY89tVzZrurbpszKS6WmYYTX8fk/edit?usp=sharing"><img src="https://www.dropbox.com/s/kheg68a9kx30j1g/SSS_Slides_Promo_Cover.jpg?raw=1" width="100%"/></a><br /> [(Download a PDF Copy of the Slides)](https://www.dropbox.com/s/95v3hst466sheng/SSS_Slides.pdf?dl=1)
+
+<br />
+
+<a href="https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-plastic-marine-debris/teams/saudi-space-shuttle/project"><img src="Among_365_Global_Nominees.png" width="200px"/></a>
 
 
 <br />
 <br />
-<br />
 
 
-
-
-
-## Pre-Processed Data
-
-
-| File  | Desc | Size | URL |
-| ------------- | ------------- |------------- |------------- |
-| SSS_02_metadata.csv  | Selected Data Listing | 8.64 MB | [Direct Download](https://www.dropbox.com/s/zoef50qn5rcnsdf/SSS_02_metadata.csv?dl=1) |
-| SSS_02_raw.zip/time_samples.csv  | Cleaned Data Listing | 4.84 MB | [Direct Download](https://www.dropbox.com/s/oo52lhxypfvdmdb/SSS_02_raw_time_samples.csv?dl=1) |
-| SSS_02_delta.zip/sample_pairs.csv  | Extracted Data Listing | 8.06 MB | [Direct Download](https://www.dropbox.com/s/24rghn8jl352cer/SSS_02_delta_sample_pairs.csv?dl=1) |
-| SSS_02_raw.zip  | Cleaned Dataset  | 512.6 MB | [Direct Download](https://www.dropbox.com/s/jhz8uytpkty38n7/SSS_02_raw.zip?dl=1) |
-| SSS_02_delta.zip  | Extracted Dataset  | 362.49 MB | [Direct Download](https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1) |
-
-| Browse Spatial Distributions by Label | SSS_02_delta.zip Subsets by Type  |
-| ------------- | ---------- |
-| <a href="https://www.saudispaceshuttle.com/SSS_02"><img src="data/SSS_02_raw_map.png" width="100%"/></a> | <img src="data/SSS_02_delta Data Subsets.png" width="100%"/>  | 
- [(Explore More Data Details)](/data)
-
-
-<br />
-<br />
-<br />
-
-
-## Training a Baseline Deep Learning Model
+## Code for Training a Baseline Deep Learning Model 
 
 ### 1. Prerequisites
 I. [Conda Distribution of Python](https://docs.conda.io/en/latest/miniconda.html)
@@ -217,10 +199,6 @@ Epoch 2/2
 642/642 [==============================] - 176s 274ms/step - loss: 0.3393 - AUC: 0.5957 - 90RecaPrec: 0.2608 - 99RecaPrec: 0.2503 - Prec: 0.3151 - Reca: 0.5748 - val_loss: 0.6417 - val_AUC: 0.6079 - val_90RecaPrec: 0.3116 - val_99RecaPrec: 0.2924 - val_Prec: 0.3559 - val_Reca: 0.5159
 ```
 
-<br />
-<br />
-<br />
-
 
 ## Preliminary Results
 
@@ -249,12 +227,29 @@ Epoch 2/2
 
 
 <br />
-<br />
+
+
+## Data
+
+
+| File  | Desc | Size | URL |
+| ------------- | ------------- |------------- |------------- |
+| SSS_02_metadata.csv  | Selected Data Listing | 8.64 MB | [Direct Download](https://www.dropbox.com/s/zoef50qn5rcnsdf/SSS_02_metadata.csv?dl=1) |
+| SSS_02_raw.zip/time_samples.csv  | Cleaned Data Listing | 4.84 MB | [Direct Download](https://www.dropbox.com/s/oo52lhxypfvdmdb/SSS_02_raw_time_samples.csv?dl=1) |
+| SSS_02_delta.zip/sample_pairs.csv  | Extracted Data Listing | 8.06 MB | [Direct Download](https://www.dropbox.com/s/24rghn8jl352cer/SSS_02_delta_sample_pairs.csv?dl=1) |
+| SSS_02_raw.zip  | Cleaned Dataset  | 512.6 MB | [Direct Download](https://www.dropbox.com/s/jhz8uytpkty38n7/SSS_02_raw.zip?dl=1) |
+| SSS_02_delta.zip  | Extracted Dataset  | 362.49 MB | [Direct Download](https://www.dropbox.com/s/t0diyq5y8onun77/SSS_02_delta.zip?dl=1) |
+
+- SSS_02_delta.zip Subsets by Type:
+<img src="data/SSS_02_delta Data Subsets.png" width="90%"/>
+
+[(Explore More Data Details)](/data)
+
 <br />
 
-# Algorithms
+## Algorithms
 
-## 1. Data Engineering 
+### 1. Data Engineering 
 1. Obtaining the incident locations.
 2. Searching the SAR-1 database.
 3. Locating images at a one month span at the dates of interests. 
@@ -265,21 +260,29 @@ Epoch 2/2
 7. Subtract pairs and apply gamma transfer. 
 8. Save, zip, and upload to dropbox.
 
-## 2. EDA
+### 2. EDA
+1. Study special cases to identify the optimal settings for the feature extractions. 
+2. Summurize the geographical distribution of the reported incidents and extracted samples.
+3. Summurize the temporal distribution of the reported incidents and extracted samples.
+4. Summurize the sizes of the subsets by labels and target types. 
 
-## 3. Deep Learning
-1. Normalize intensities and augment data. 
-2. Obtain test retuls.
-3. Optomize model. 
+### 3. Deep Learning
+1. Normalize intensities. 
+2. Augment data. 
+3. Obtain test retuls.
+4. Optomize model. 
 
-## 4. Deployment
+### 4. Deployment
 1. Obtain random images around the globe.
 2. Feed the model. 
 3. Generate Heatmap every 24 hours using JavaScript. 
 4. Serve dynamic html pages. 
 
 
-# Tools
+<br />
+
+
+## Tools
 
 * Acquisition: Google Earth Engine Python API
 * Feature Engineering: Pandas, Numpy, Itertools
@@ -288,15 +291,15 @@ Epoch 2/2
 * Visualization: Matplotlib, Seaborn, Folium, JavaScript
 * Deployment: Flask
 
-<br />
-<br />
+
 <br />
 
-# Communication
+
+## Communication
 
 The Graphical User Interface (GUI) for the MarineSpillDetector model is being built at https://msd.SaudiSpaceShuttle.com
 
+-Browse Spatial Distributions by Label:
+<a href="https://www.saudispaceshuttle.com/SSS_02"><img src="data/SSS_02_raw_map.png" width="100%"/></a> <br /> [(Filter by Label)](https://www.saudispaceshuttle.com/SSS_02) 
 
-
-<a href="https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-plastic-marine-debris/teams/saudi-space-shuttle/project"><img src="Among_365_Global_Nominees.png" width="200px"/></a>
 
