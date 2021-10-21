@@ -1,15 +1,15 @@
 # ML-Based Marine Spill Detector
 
+(Abstract)
+The proposal of the project is published on the NASA Space Apps challenge website and is among the selected 365 Global Nominees. We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. Our method mainly consists of combining open source datasets for the NASA Space Apps to help natural disasters decision makers plan and allocate resources efficiently. Our vision is to have the contamination accumulation in the food chain de-accelerated, and the mission of the public user interface (SaudiSpaceShuttle.com) is to provide the first responders community with an additional deep model as well as to increase the public awareness about water pollution. [(Read About the Design in the Proposal Page)](Proposal.md)
 
-The proposal of the project is published on the NASA Space Apps challenge website and is among the selected 365 Global Nominees. We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. Our method mainly consists of combining open source datasets for the NASA Space Apps to help natural disasters decision makers plan and allocate resources efficiently. Our vision is to have the contamination accumulation in the food chain de-accelerated, and the mission of the public user interface (SaudiSpaceShuttle.com) is to provide the first responders community with an additional deep model as well as to increase the public awareness about water pollution. [(Continue Reading)](Proposal.md)
+## Method
 
-## Design
-
-<a href="https://docs.google.com/presentation/d/1VxZ-vaUGmrOlumdKwY89tVzZrurbpszKS6WmYYTX8fk/edit?usp=sharing"><img src="https://www.dropbox.com/s/kheg68a9kx30j1g/SSS_Slides_Promo_Cover.jpg?raw=1" width="100%"/></a><br /> [(Download a PDF Copy of the Slides)](https://www.dropbox.com/s/95v3hst466sheng/SSS_Slides.pdf?dl=1)
+<a href="https://docs.google.com/presentation/d/1VxZ-vaUGmrOlumdKwY89tVzZrurbpszKS6WmYYTX8fk/edit?usp=sharing"><img src="https://www.dropbox.com/s/kheg68a9kx30j1g/SSS_Slides_Promo_Cover.jpg?raw=1"  alt="Click Here to View Slides" width="100%"/></a><br /> [(Download a PDF Copy of the Slides)](https://www.dropbox.com/s/95v3hst466sheng/SSS_Slides.pdf?dl=1)
 
 <br />
 
-<a href="https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-plastic-marine-debris/teams/saudi-space-shuttle/project"><img src="Among_365_Global_Nominees.png" width="200px"/></a>
+<a href="https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-plastic-marine-debris/teams/saudi-space-shuttle/project"><img src="Among_365_Global_Nominees.png" alt="SpaceAppsChallenge" width="200px"/></a>
 
 
 <br />
