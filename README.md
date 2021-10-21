@@ -295,9 +295,9 @@ Epoch 2/2
 
 The Graphical User Interface (GUI) for the MarineSpillDetector model is being built at https://msd.SaudiSpaceShuttle.com
 
-Recommendations:
+Possible Enhancments:
 1. Featues/images from other satellites.
-2. Cluster/Autoencoding before deep learning.
+2. Clustering/autoencoding before deep learning.
 3. Grid search fine tuning.
 
 -Browse Spatial Distributions by Label:
