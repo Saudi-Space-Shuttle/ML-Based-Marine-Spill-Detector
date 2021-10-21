@@ -57,16 +57,30 @@ The second version consists of up to 12,055 postive samples for 908 unique incid
 7. incident_date: the date of interest associated with the image.
 - The Distribution of the Pixels' Intensities:
 
-| Distribution | Statistics | Description |
-| ------------- | ------------- | ------------- |
-| Sampling | <img src="SSS_02_delta Count by Label.png" width="100%"/> | Boxplot of the time samples per incident by label |
-| Features | <img src="SSS_02_raw Histogram.png" width="100%"/> | Histogram of the training pixels' intensities | 
-| Space | <a href="https://www.saudispaceshuttle.com/SSS_02"><img src="SSS_02_raw_map.png" width="100%"/></a> <br /> [(Filter by Label)](https://www.saudispaceshuttle.com/SSS_02) | Heatmap of the data points geographic locations.  | 
-| Time | <img src="SSS_02 Annual Trend.png" width="100%"/> | Annual average of number of reported incidents and typical trend expected by year and month | 
+#### Description of Distributions and Statistics
+
+##### 1. Sampling: Boxplot of the time samples per incident by label
+
+<img src="SSS_02_delta Count by Label.png" width="30em" style="width: 30em;" />
+
+##### 2. Features: Histogram of the training pixels' intensities
+
+<img src="SSS_02_raw Histogram.png" width="30em" style="width: 30em;" />
+
+##### 3. Space: Heatmap of the data points geographic locations
+
+<a href="https://www.saudispaceshuttle.com/SSS_02"><img src="SSS_02_raw_map.png" width="100%" style="width: 100%;" /></a> <br /> [(Filter by Label)](https://www.saudispaceshuttle.com/SSS_02)
+
+##### 4. Time: Annual average of number of reported incidents and typical trend expected by year and month
+
+<img src="SSS_02 Annual Trend.png" width="30em" style="width: 30em;" /> 
 
 <br/>
 
 ### 2. SSS_02_delta.zip
+
+
+#### File Naming Information
 
 ```
 {label}_{incident}_{order_of_first_image}_{order_of_second_image}.jpg
@@ -77,11 +91,19 @@ The second version consists of up to 12,055 postive samples for 908 unique incid
 3. order: temporal order of images. Negative is for images that were taken after the date of interest.
 More details can be looked up by finding the relevant two images in SSS_02_raw. The files were located using the included "sample_pairs.csv" file. 
 
-| Distribution | Statistics | Description |
-| ------------- | ------------- | ------------- |
-| Combinations | <img src="SSS_02_raw Count by Label.png" width="100%"/> | Boxplot of the paired samples per incident by label |
-| Features | <img src="SSS_02 Train Histogram.png" width="100%"/> | Histogram of the training pixels' intensities | 
-| Labels | <img src="SSS_02_delta Data Subsets.png" width="100%"/> | Pie chart of data subsets sizes by types | 
+#### Description of Distributions and Statistics
+
+##### 1. Combinations: Boxplot of the paired samples per incident by label
+
+<img src="SSS_02_raw Count by Label.png" width="30em" style="width: 30em;" />
+
+##### 2. Features: Histogram of the training pixels' intensities
+
+<img src="SSS_02 Train Histogram.png" width="30em" style="width: 30em;" />
+
+##### 3. Labels: Pie chart of data subsets sizes by types
+
+<img src="SSS_02_delta Data Subsets.png" width="40em" style="width: 40em;" />
 
 <br/>
 <br/>
