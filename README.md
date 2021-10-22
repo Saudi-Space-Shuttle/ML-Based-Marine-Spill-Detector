@@ -5,7 +5,7 @@ The proposal of the project is published on the NASA Space Apps challenge websit
 
 ## Method
 
-<a href="https://docs.google.com/presentation/d/1VxZ-vaUGmrOlumdKwY89tVzZrurbpszKS6WmYYTX8fk/edit?usp=sharing"><img src="https://www.dropbox.com/s/kheg68a9kx30j1g/SSS_Slides_Promo_Cover.jpg?raw=1"  alt="Click Here to View Slides" width="100%"/></a><br /> [(Download a PDF Copy of the Slides)](https://www.dropbox.com/s/95v3hst466sheng/SSS_Slides.pdf?dl=1)
+<a href="https://docs.google.com/presentation/d/1bvukptkFTpIuTKjprkIZMrgA5KmNYpMtZAJBTfYmOm4/edit?usp=sharing"><img src="https://www.dropbox.com/s/kheg68a9kx30j1g/SSS_Slides_Promo_Cover.jpg?raw=1"  alt="Click Here to View Slides" width="100%"/></a><br /> [(Download a PDF Copy of the Slides)](https://www.dropbox.com/s/kf6gvs5vi8jfav8/SSS_Slides.pdf?dl=1)
 
 <br />
 <br />
