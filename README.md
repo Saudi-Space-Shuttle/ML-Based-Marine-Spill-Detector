@@ -1,7 +1,7 @@
 # ML-Based Marine Spill Detector
 
 (Abstract)
-The proposal of the project is published on the NASA Space Apps challenge website and is among the selected 365 Global Nominees. We propose an oil spill detection web application that periodically reads NASA satellite data and generates a global geographic heatmap. The purpose of the heatmap is to indicate the occurrence chance of the spillage incidents using regular deep learning methods. Our method mainly consists of combining open source datasets for the NASA Space Apps to help natural disasters decision makers plan and allocate resources efficiently. Our vision is to have the contamination accumulation in the food chain de-accelerated, and the mission of the public user interface (SaudiSpaceShuttle.com) is to provide the first responders community with an additional deep model as well as to increase the public awareness about water pollution. [(Read About the Design in the Proposal Page)](Proposal.md)
+We propose an oil spill detection web application that periodically reads ESA and NASA satellite data and generates a global geographic heatmap. [(Continue Reading)](Proposal.md)
 
 ## Method
 
@@ -301,9 +301,13 @@ Possible Enhancments:
 3. Grid search fine tuning.
 4. LSTM (Alternative Solution).
 
--Browse Spatial Distributions by Label:
+
+#### Browse Spatial Distributions by Label.
+
 <a href="https://www.saudispaceshuttle.com/SSS_02"><img src="data/SSS_02_raw_map.png" width="100%"/></a> <br /> [(Filter by Label)](https://www.saudispaceshuttle.com/SSS_02) 
 
-<a href="https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-plastic-marine-debris/teams/saudi-space-shuttle/project"><img src="Among_365_Global_Nominees.png" alt="SpaceAppsChallenge" width="19em" style="width: 19em;" /></a>
 
 
+#### The proposal of the project is published on the NASA Space Apps challenge website and is among the selected 365 Global Nominees. 
+
+<a href="https://SaudiSpaceShuttle.com"><img src="Among_365_Global_Nominees.png" alt="SpaceAppsChallenge" width="19em" style="width: 19em;" /></a>
