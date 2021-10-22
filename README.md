@@ -308,6 +308,6 @@ Possible Enhancments:
 
 
 
-#### The proposal of the project is published on the NASA Space Apps challenge website and is among the selected 365 Global Nominees. 
+#### The proposal of the project is published on the NASA Space Apps challenge website and is among 365 Global Nominees. 
 
 <a href="https://SaudiSpaceShuttle.com"><img src="Among_365_Global_Nominees.png" alt="SpaceAppsChallenge" width="19em" style="width: 19em;" /></a>
