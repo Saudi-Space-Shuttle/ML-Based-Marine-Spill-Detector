@@ -256,7 +256,7 @@ Epoch 2/2
 7. Subtract pairs and apply gamma transfer. 
 8. Save, zip, and upload to dropbox.
 
-### 2. EDA
+### 2. Exploratory Data Analysis
 1. Study special cases to identify the optimal settings for the feature extractions. 
 2. Summurize the geographical distribution of the reported incidents and extracted samples.
 3. Summurize the temporal distribution of the reported incidents and extracted samples.
